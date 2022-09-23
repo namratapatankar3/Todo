@@ -1,0 +1,126 @@
+body {
+    background-color: #585858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    max-width: 1000px;
+    width: 100%;
+}
+
+header h1 {
+    color: white;
+
+}
+
+button,
+input {
+    border: none;
+    appearance: none;
+    background: none;
+    outline: none;
+
+}
+
+#listss {
+    display: flex;
+}
+
+#addtask {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    width: 400px;
+    border-radius: 3px;
+    margin-right: 30px;
+
+    font-size: 15px;
+    color: black;
+}
+
+#addtask::placeholder {
+    font-size: 14px;
+
+
+}
+
+#add {
+    cursor: pointer;
+    background-image: linear-gradient(to right, purple, black, blue);
+    font-size: 20px;
+    font-weight: bolder;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transition: 0.5s;
+}
+
+#save {
+    cursor: pointer;
+    background-image: linear-gradient(to right, purple, black, blue);
+    font-size: 20px;
+    font-weight: bolder;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transition: 0.5s;
+}
+
+#add:hover {
+    opacity: 0.8;
+}
+
+#add:active {
+    opacity: 0.8;
+}
+
+h1 {
+    color: rgb(252, 252, 252);
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-between;
+    background-color: #202020;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.alltasks input {
+    width: 400px;
+    color: #ffffff;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+#edit {
+    cursor: pointer;
+    background-image: linear-gradient(to right, purple, green, pink, blue);
+    font-size: 20px;
+    font-weight: bolder;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 50px;
+}
+
+#dl {
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#delete {
+    cursor: pointer;
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
